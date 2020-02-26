@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : {
+    "namespace": "android_app",
+    "package_name": "io.safiullin.lang",
+    "sha256_cert_fingerprints": [
+      "13:AE:1A:CE:78:EA:AB:2F:2B:C6:50:A8:3E:51:1B:E8:9A:64:E8:00:50:33:07:16:E8:F4:43:2F:DE:E8:CB:D9"
+    ]
+  }
+}]
