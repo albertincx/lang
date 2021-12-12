@@ -11,7 +11,5 @@ app/modules/
 .DS_Store
 npm-debug.log
 .idea
-yarn.lock
-package-lock.json
 yarn-error.log
 .env
