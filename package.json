@@ -70,7 +70,7 @@
     "immutable": "^3.8.2",
     "invariant": "2.2.4",
     "lodash": "^4.17.15",
-    "minimist": "1.2.0",
+    "minimist": "^1.2.5",
     "prop-types": "15.7.2",
     "react": "^16.12.0",
     "react-addons-css-transition-group": "^15.6.2",
@@ -89,7 +89,7 @@
     "warning": "4.0.3"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.2",
+    "@babel/cli": "^7.16.0",
     "@babel/core": "7.6.2",
     "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
@@ -153,6 +153,6 @@
     "webpack-cli": "3.3.9",
     "webpack-dev-middleware": "3.7.2",
     "webpack-hot-middleware": "2.25.0",
-    "webpack-pwa-manifest": "4.0.0"
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
