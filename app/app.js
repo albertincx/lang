@@ -26,15 +26,18 @@ require('./push-init').default();
 String.prototype.format = function() {
   return [...arguments].reduce((p, c) => p.replace(/%s/, c), this);
 };
+const showUpdater = () => {
+  const not = document.createElement('div');
+  not.setAttribute('class', 'upd-notify');
+  not.innerHTML = `<div class="text loader-mini">updating...<br />reloading <div  id="upd-notify"></div></div>`;
+  document.body.appendChild(not);
+  ReactDOM.render(<Loader />, document.getElementById('upd-notify'));
+}
 if (process.env.NODE_ENV === 'production') {
-  const runtime = require('offline-plugin/runtime'); // eslint-disable-line global-require
+  const runtime = require('@lcdp/offline-plugin/runtime'); // eslint-disable-line global-require
   runtime.install({
     onUpdating: () => {
-      const not = document.createElement('div');
-      not.setAttribute('class', 'upd-notify');
-      not.innerHTML = `<div class="text loader-mini">updating...<br />reloading <div  id="upd-notify"></div></div>`;
-      document.body.appendChild(not);
-      ReactDOM.render(<Loader />, document.getElementById('upd-notify'));
+      showUpdater();
     },
     onUpdateReady: () => {
       runtime.applyUpdate();

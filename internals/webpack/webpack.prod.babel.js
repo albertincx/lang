@@ -1,8 +1,8 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
-const OfflinePlugin = require('offline-plugin');
-const { HashedModuleIdsPlugin } = require('webpack');
+const OfflinePlugin = require('@lcdp/offline-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const cacheGroups = require('./cacheGroups');
@@ -36,25 +36,6 @@ module.exports = require('./webpack.base.babel')({
   output,
   optimization: {
     minimize: true,
-    minimizer: [
-      new TerserPlugin({
-        terserOptions: {
-          warnings: false,
-          compress: {
-            comparisons: false,
-          },
-          parse: {},
-          mangle: true,
-          output: {
-            comments: false,
-            ascii_only: true,
-          },
-        },
-        parallel: true,
-        cache: true,
-        sourceMap: true,
-      }),
-    ],
     nodeEnv: 'production',
     sideEffects: true,
     concatenateModules: true,
@@ -64,7 +45,7 @@ module.exports = require('./webpack.base.babel')({
       minChunks: 1,
       maxAsyncRequests: 5,
       maxInitialRequests: 3,
-      name: true,
+      name: false,
       cacheGroups,
     },
     runtimeChunk: true,
@@ -133,7 +114,7 @@ module.exports = require('./webpack.base.babel')({
       ],
     }),
 
-    new HashedModuleIdsPlugin({
+    new webpack.ids.HashedModuleIdsPlugin({
       hashFunction: 'sha256',
       hashDigest: 'hex',
       hashDigestLength: 20,

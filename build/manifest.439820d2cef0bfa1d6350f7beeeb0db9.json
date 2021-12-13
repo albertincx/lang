@@ -1,57 +1,57 @@
 {
   "icons": [
     {
-      "src": "/build/icon_180x180.1407a67d0bf996279e42ab372509932f.png",
+      "src": "/build/icon_180x180.de42fedf51ff432c4ace88e7fbac3c92.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_167x167.e7ee5c4f5b0c3c3e874a53d8a1f58856.png",
+      "src": "/build/icon_167x167.7228f1933136fb844035635b12901af7.png",
       "sizes": "167x167",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_152x152.fdb6d082a3e656efa8a586844daeed51.png",
+      "src": "/build/icon_152x152.084050f5b972b0d81299797616636d4f.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_120x120.d876a7656b4fd4bc32e5cc5a9feb63d5.png",
+      "src": "/build/icon_120x120.d63149a627a521810619d8c64e6450c7.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_512x512.a38edcf0471bfcac0fa2ac23c0309aec.png",
+      "src": "/build/icon_512x512.774d3dcd1c8dfd9089b97b431b805370.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_384x384.9cc8caa74e4f71ba93f266d18292ec68.png",
+      "src": "/build/icon_384x384.102d9da7969b06f7c7114a4e569eaee7.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_192x192.18708793248ead858e7e84e9f8960361.png",
+      "src": "/build/icon_192x192.0b7bad1dec270c9a33e8fcaa89d5e604.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_144x144.274b1b644148b40c8c01c31eaef7e554.png",
+      "src": "/build/icon_144x144.db830b08d6a0908b2435d2c918096087.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_128x128.24361394491805c07afef884da5c7dbe.png",
+      "src": "/build/icon_128x128.306f55543aef6326a5d8e1da06f5596a.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_96x96.222e4ecd04a787bcd0582718fa452aa9.png",
+      "src": "/build/icon_96x96.db2b99d850cbe0116bb6f10d2755aa58.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/build/icon_72x72.f5c2a5bf5441152747252fc56bc311a9.png",
+      "src": "/build/icon_72x72.92c5cd11b88183815b704d80db67cb18.png",
       "sizes": "72x72",
       "type": "image/png"
     }
