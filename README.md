@@ -6,5 +6,8 @@
 ## Website
 https://lang.safiullin.io/
 
+![Screen](screen.png)
+
 ## Source moved to 
 https://github.com/albertincx/PWA-Vite-React-Boilerplate
+
