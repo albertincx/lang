@@ -6,7 +6,6 @@ tmp/
 docs/
 data/
 modules/
-app/modules/
 # Cruft
 .DS_Store
 npm-debug.log
