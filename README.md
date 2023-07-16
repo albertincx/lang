@@ -3,6 +3,10 @@
 
 ## ⁉️ This is only a build!!
 
+## Trusted PWA (android)
+
+https://play.google.com/store/apps/details?id=io.safiullin.lang
+
 ## Website
 https://lang.safiullin.io/
 
